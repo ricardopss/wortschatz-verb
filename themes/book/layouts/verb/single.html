@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article class="markdown">
+  <h1 style="border-left:4px solid gold;padding: 5px;">
+    <a href="{{ .RelPermalink }}" style="text-decoration:none;">{{ .Title | markdownify}}</a>
+    {{ partial "docs/post-meta" . }}
+  </h1>
+  <p>
+    {{- .Content -}}
+  </p>
+</article>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/toc" . }}
+{{ end }}

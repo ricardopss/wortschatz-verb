@@ -1,0 +1,15 @@
+{{ define "main" }}
+<article class="markdown">
+  <h1>{{ .Title | title }}</h1>
+  {{ $taxonomies := index .Site.Taxonomies .Page.Type }}
+  {{ range $taxonomies }}
+    <div><a href="{{ .Page.Permalink }}" style="text-decoration:none;">{{ .Page.Title | markdownify}} <sup>{{ .Count }}</sup></a></div>
+  {{ end }}
+
+</article>
+{{ end }}
+
+{{ define "toc" }}
+  {{ partial "docs/taxonomy" . }}
+{{ end }}
+

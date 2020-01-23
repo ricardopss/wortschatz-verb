@@ -1,0 +1,25 @@
+<aside class="book-toc fixed">
+<nav>
+  <ul>
+  {{ range $term, $_ := .Site.Taxonomies }}
+  {{ with $.Site.GetPage (printf "/%s" $term) }}
+    {{ if or (or (eq $term "Kategorien") (eq $term "Schwierigkeit")) (or (eq $term "tags") (eq $term "series"))}}
+        <li class="book-section-flat">
+          <strong>{{ .Title | title }}</strong>
+          <ul>
+          {{ range .Pages }}
+            <li style="display:inline-block;">
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+          {{ end }}
+          </ul>
+        </li>
+      {{ else }}
+      {{ end }}
+
+  {{ end }}
+  {{ end }}
+  </ul>
+</nav>
+</aside>
+
