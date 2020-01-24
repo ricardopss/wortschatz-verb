@@ -3,7 +3,7 @@
   <ul>
   {{ range $term, $_ := .Site.Taxonomies }}
   {{ with $.Site.GetPage (printf "/%s" $term) }}
-    {{ if or (or (eq $term "Kategorien") (eq $term "Schwierigkeit")) (or (eq $term "tags") (eq $term "series"))}}
+    {{ if or (or (eq $term "kategorien") (eq $term "schwierigkeit")) (or (eq $term "tags") (eq $term "series"))}}
         <li class="book-section-flat">
           <strong>{{ .Title | title }}</strong>
           <ul>

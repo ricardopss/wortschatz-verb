@@ -62,8 +62,8 @@ enableGitInfo = false
   BookSearch = true
 
 [taxonomies]
-kategorien = "Kategorien"
-schwierigkeit = "Schwierigkeit"
+kategorien = "kategorien"
+schwierigkeit = "schwierigkeit"
 mainDornseiff = "mainDornseiffs"
 domainDornseiff = "domainDornseiffs"
 tag = "tags"

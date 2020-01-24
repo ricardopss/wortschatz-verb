@@ -1,9 +1,10 @@
 {{ define "main" }}
 <article class="markdown">
   <h1 style="border-left:4px solid gold;padding: 5px;">
-    <a href="{{ .RelPermalink }}" style="text-decoration:none;">{{ .Title | markdownify}}</a>
-    {{ partial "docs/post-meta" . }}
+    <a href="{{ .RelPermalink }}" style="text-decoration:none;">{{ .Title | markdownify }}</a>
   </h1>
+  {{ partial "docs/post-meta" . }}
+
   <p>
     {{- .Content -}}
   </p>

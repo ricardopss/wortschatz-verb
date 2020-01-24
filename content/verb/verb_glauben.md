@@ -1,95 +1,129 @@
 ---
 title: "glauben"
-Kategorien: ["Verb"]
-Schwierigkeit: ["k5", "k2", "k1", "k3", "k4", "k5", "k6", "k7", "k8", "k9", "k10", "k11", "k12", "k13", "k14", "r15", "r16", "r17", "r18", "r20", "r21"]
-tags: ['Linguistik', 'Biologie']
-mainDornseiffs: ['Wesen, Beziehung, Geschehnis', 'Zeichen, Mitteilung, Sprache']
-domainDornseiffs: ['Veränderung', 'Grammatik']
+kategorien: ["Verb"]
+schwierigkeit: ["k6", "h5", "r9"]
+tags:
 series:
+mainDornseiffs: ['Das Denken', 'Religion, Übersinnliches']
+domainDornseiffs: ['Ansicht', 'Vermutung', 'Religiosität, Glaube']
 url: "glauben"
 ---
 
-{{< betonen grey >}}
-**Übs:**  
-partially, vary, modify, improve, better, amend, rectify, correct, do away with, abolish, commute, reverse, revise  
-{{< /betonen >}}
+{{< betonenÜbs >}}
+**Übersetzung:**  
+believe, think, guess  
+believe, think, have religious beliefs, More examples...  
+to believe oneself to be alone, he thought nobody was watching him  
+{{< /betonenÜbs >}}
 
-{{< button href="https://github.com/alex-shpak/hugo-book" >}}Contribute{{< /button >}}
-
-## Wiktionary [[+](https://de.wiktionary.org/wiki/abändern)]
+## Wiktionary [[+](https://de.wiktionary.org/wiki/glauben)]
 
 ### Bedeutungen
-[1] transitiv: etwas ein wenig, meist zum Besseren, verändern/anpassen  
-[2] transitiv: durch Änderung aufheben/beseitigen  
-[3] transitiv, Linguistik: in den einzelnen grammatischen Fällen beugen  
-[4] intransitiv, Biologie: durch Umweltfaktoren oder Mutation Variationen in den Artmerkmalen aufweisen  
+[1] religiös sein, an einen oder mehrere Götter glauben; in seinem Glauben überzeugt sein  
+[2] »etwas glauben«/»glauben, dass«; subjektiv:  
+[2a] eher gefühlsmäßig; von etwas nicht objektiv Bewiesenem: einen Sachverhalt für wahr/richtig/glaubwürdig halten, aber die Möglichkeit zulassen, dass dies widerlegt wird; meinen  
+[2b] eher abwägend; auf etwas Zukünftiges bezogen: etwas für möglich und wahrscheinlich halten; etwas vermuten, annehmen, mutmaßen, der Meinung sein  
+[3] »jemandem glauben« (Dativ): sich auf jemanden vertrauensvoll verlassen  
+[4] »an jemanden (/etwas) glauben« (Akkusativ): jemandem vertrauen, auf jemanden vertrauen; auf etwas setzen  
 
 ### Synonyme
-[1] abkoppeln, abschaffen, ändern, abwandeln, anpassen, aufbessern, austauschen, berichtigen, eintauschen, erneuern, korrigieren, modeln, modifizieren, modulieren, mutieren, nachbessern, neugestalten, novellieren, revidieren, revolutionieren, transformieren, transponieren, tauschen, umarbeiten, umändern, umbilden, umformen, umfunktionieren, umgestalten, umkehren, umkrempeln, ummodeln, ummünzen, umsetzen, umstellen, umstoßen, umstürzen, umtauschen, umwandeln, überarbeiten, variieren, verändern, verbessern, versetzen, vertauschen, verwandeln  
-[3] ableiten, abwandeln, ändern, deklinieren, beugen  
+[2a] meinen, denken  
+[2b] vermuten, annehmen  
+[3, 4] vertrauen  
 
-### Sinnverwandte
-[2] aufheben, beseitigen, wegschaffen, widerrufen  
+### Unterbegriffe
+beglaubigen, geglaubt  
+
+### Redewendungen
+daran glauben müssen (das Opfer sein), kaum zu glauben, wer’s glaubt, wird selig  
 
 ### Gegenwörter
-[1] belassen, lassen  
+[2a] zweifeln, bezweifeln, anzweifeln  
+[2b] sicher sein, keine Ahnung haben  
+[3] misstrauen  
 
 ### Wortkombinationen
-[1] ein Kleidungsstück abändern; ein Schreiben abändern, ein Testament abändern; ein Konzept abändern, einen Plan abändern  
-[2] einen Befehl abändern, einen Fehler abändern  
+[1] mit Substantiv: an Gott glauben  
+[3] mit Adjektiv: etwas unbesehen glauben ( Audio (Info))  
 
 ### Beispiele
-{{< betonen gold >}}
-[1] Ich ändere den Rock ab, wenn er dir nicht gefällt.  
-[1] „Das türkische Grundgesetz soll in 27 [Punkten](/verb_anderen/) abgeändert werden.“[1]  
-[2] „Sagt mir gefälligst, woran es liegt, damit ich die Fehler nach Euerm gütigen Rat abändere und bessere.“[2]  
-[3] Setzt die abgeänderten Substantive in die Tabelle ein.  
-[4] „Die Falter ändern stark ab in der Ausdehnung der dunklen Zeichnung.“[3]  
-[4] „Alle Arten ändern leicht ab, besonders aber wechselt die Form der Blättchen.“[4]  
+{{< betonenZB >}}
+[1] Er glaubt an Gott.  
+[1] Er glaubt, dass Gott die Welt geschaffen hat und alles einen Sinn hat.  
+[2] Ich glaube, dass diese Lösung die einzig richtige ist.  
+[2] Kaum zu glauben, aber dieses Kunstwerk hat 100.000 Euro gekostet!  
+[2] Thomas hat versprochen, mit den Frauengeschichten aufzuhören. Wer’s glaubt, wird selig.  
+[2] Ich glaube, dass Alex seine Alkoholsucht tatsächlich besiegt hat.  
+[2] Ich glaube diese Folge kam vor ein paar Jahren schon einmal. Ich meine mich daran zu erinnern.  
+[2a] Ich glaube schon, dass viele Jugendliche von der Schule gestresst sind.  
+[2a] Er glaubte, der beste Lebensweg sei der der ständigen Vorsicht.  
+[2b] Ich glaube, da stimmt etwas nicht.  
+[2b] Sie glaubt, dass sie bei der Nominierung keine Chancen hat.  
+[2b] Unsere Lehrerin glaubte, dass es an unserem morgigen Wandertag regnen würde und sagte ihn daher ab.  
+[3] Ich glaube ihm, dass er mich nicht hintergehen würde.  
+[3] Ich glaubte ihr, dass sie die Vase nicht hat fallen lassen.  
+[3] Der Richter glaubte dem Opfer.  
+[3] Glaub mir doch endlich, dass ich nur das Beste für dich im Sinn habe!  
+[4] Wir glauben an Martha, sie wird den Titel für unsere Stadt gewinnen.  
+[4] Ich glaube an das Gute im Menschen.  
+[4] Timo glaubt trotz der Eurokrise an unsere Bundesregierung; viele glauben überhaupt nicht mehr an die Politik.  
 
-{{< /betonen >}}
+{{< /betonenZB >}}
+### Herkunft
+mittelhochdeutsch gelouben, althochdeutsch gilouben, ursprünglich = für lieb halten; gutheißen; zu lieb[1]  
+von mittelhochdeutsch g(e)louben beziehungsweise althochdeutsch gilouben. Zugrunde liegt eine gemeingermanische Adjektivwurzel *ga-lauba-(von englisch "believe" geteilt) mit der Bedeutung "vertraut", aus einer germanischen Wurzel, von englisch lief, love; deutsch Liebe, lieben geteilt [Quellen fehlen]  
 
 
-## dwds [[+](https://www.dwds.de/wb/abändern)]
+
+## dwds [[+](https://www.dwds.de/wb/glauben)]
 
 ### Wortinformation
-{{< tabs "Uniqueid" >}}
+{{< tabs "Dwds" >}}
 {{< tab "Typische Verbindungen" >}}
-Belieben, Beschluß, Bestimmung, Bestimmungen, Einvernehmen, Entwurf, Folgezeit, Gesellschaftsvertrag, Gesetz, Gesetzentwurf, Mehrheitsbeschluß, Ministerrat, Paragraph, Satzung, Statut, Verfassung, Verordnung, Wahlgesetz, abschließen, aufheben, dahingehend, eigenmächtig, einseitig, einstimmig, ergänzen, verlegen, widerrufen, ändern
+Experte, Gott, aber, allerdings, auch, daran, dennoch, doch, du, er, es, fest, ich, kaum, man, mehr, nicht, noch, nun, offenbar, recht, schon, selbst, sie, so, sogar, was, wir, wirklich
 {{< /tab >}}
-{{< tab "alphabetisch vorangehend" >}} 
-abänderlich, abänderbar, abalienieren, Abalienation, Abakus  
+
+{{< tab "alphabetisch vorangehend" >}}
+Glaube, glau, Glatzköpfigkeit, glatzköpfig, Glatzkopf
 {{< /tab >}}
-{{< tab "alphabetisch nachfolgend" >}}
-Abänderung, Abänderungsantrag, abänderungsbedürftig, Abänderungsklage, Abänderungsplan  
+
+{{< tab "alphabetisch vorangehend" >}}
+Glaubensabfall, Glaubensangelegenheit, Glaubensartikel, Glaubensaussage, Glaubensbekenner
 {{< /tab >}}
+
 {{< /tabs >}}
 
 ### Wortprofil
-{{< expand Überblick>}}
-abschließen, Folgezeit, Gesellschaftsvertrag, dahingehend, eigenmächtig, ändern, Mehrheitsbeschluß, widerrufen, Wahlgesetz, Satzung, Statut, Belieben, ergänzen, aufheben, Bestimmung, Dekret, Verordnung, Entwurf, Bestimmungen, Paragraph
-{{< /expand >}}
-{{< expand "hat Adverbialbestimmung">}} dahingehend, eigenmächtig, einseitig, einstimmig, entsprechend, wesentlich, leicht, je{{< /expand >}}
-{{< expand "hat Akk./Dativ-Objekt">}} Bestimmung, Verfassung, Verfügung, Entwurf, Urteil, Gesetz, Beschluß, Vertrag, Text, Plan, Vorschlag, Antrag, Konzept, Name, Entscheidung{{< /expand >}}
-{{< expand "hat Präpositionalgruppe">}} in Folgezeit, durch Verordnung, nach Belieben, im Einvernehmen, in Einzelheit, durch Vereinbarung, nach Bedürfnis, durch Beschluß, mit Zustimmung, zu Last, in Punkt, entsprechend Wunsch, im Sinn, durch Gesetz, mit Mehrheit, in Sinn, im Zug, in Weise, aus Grund{{< /expand >}}
-{{< expand "in Koordination mit">}} abschließen, aufheben, widerrufen, ergänzen, verlegen, zurücknehmen, fassen, erweitern, abschaffen, verlängern, überprüfen, streichen, ersetzen, bestätigen, ablehnen, setzen, bringen, machen{{< /expand >}}
-{{< expand "hat Subjekt">}} Gesellschaftsvertrag, Parlament, Gericht, Richter, Regierung{{< /expand >}}
-{{< expand "hat Passivsubjekt">}} Gesellschaftsvertrag, Bestimmung, Verfassung, Entwurf, Artikel, Gesetz, Gesetzentwurf, Text, Plan, Abkommen, Beschluß, Urteil, Name, Vertrag, Entscheidung, sie, es, er{{< /expand >}}
+{{< expand "Überblick" >}} ich, daran, nicht, kaum, man, wir, sie, er, du, mehr, aber, Gott, fest, noch, wirklich, so, schon, es, auch {{< /expand >}}
+{{< expand "hat Adverbialbestimmung" >}} daran, kaum, man, nicht, fest, wirklich, recht, dran, dennoch, was, ernsthaft, mehr, aber, offenbar, jedenfalls, sogar, noch, allerdings, schon {{< /expand >}}
+{{< expand "hat Akk./Dativ-Objekt" >}} Gute, Wort, es, Umfrage, ich, Beteuerung, Statistik, Geschichte, Versprechung, Gerücht, Aussage, sie, du, Bericht, Experte, Version, Prognose, Lüge, Augenblick, Versicherung {{< /expand >}}
+{{< expand "hat Präpositionalgruppe" >}} an Gott, an Wunder, an Chance, an Erfolg, an Sieg, an Möglichkeit, an Zufall, im Ernst, an Zukunft, an Kraft, an Unschuld, an Liebe, an Existenz, an Wirkung, an Macht, an Weihnachtsmann, an Fortschritt, an er, an Aufschwung, an Wiedergeburt {{< /expand >}}
+{{< expand "in Koordination mit" >}} glauben, hoffen, vertrauen, sehen, wissen, fühlen, halten, denken, hören, fürchten, erwarten, lieben, kennen, meinen, überzeugen, verstehen, rechnen, irren, behaupten, wünschen {{< /expand >}}
+{{< expand "hat Subjekt" >}} ich, Prozent, wir, du, sie, er, Leut, Experte, Mensch, Beobachter, Analyst, Forscher, Mehrheit, Trainer, Wissenschaftler, Deutsche, Polizei, Politiker, Amerikaner, Manager {{< /expand >}}
+{{< expand "hat vergl. Wortgruppe" >}} als Christ, als Hälfte, als Skeptiker, als Leser, wie ich, als Laie, als Katholik, als Projekt, als Sozialdemokrat, als Wahrheit, als Intellektuelle, als Drittel, als Tatsache, als Leut, als Realität, wie wir, als Kommunist, wie sie, als Herr, wie Amerikaner {{< /expand >}}
+{{< expand "hat Passivsubjekt" >}} Irrtum, Illusion, es, Lüge, Wahrheit, Trugschluß, ich, Behauptung, Legende, wir, Geschichte, Botschaft, Nachricht, Wort, Fehler, Erklärung, sie, er {{< /expand >}}
 
-## Leipzig Corpora [[+](https://corpora.uni-leipzig.de/en/res?word=abändern&corpusId=deu_newscrawl-public_2018)]
+## Leipzig Corpora [[+](https://corpora.uni-leipzig.de/en/res?word=glauben&corpusId=deu_newscrawl-public_2018)]
 
 ### Dornseiff Sets
-{{< betonen blue >}}
-**Wesen, Beziehung, Geschehnis:**  
-**``Veränderung:``** abkoppeln, abschaffen, abwandeln, abändern, entzaubern, erneuern, erschüttern, stören, transformieren, transponieren, umbilden, umkehren, ummodeln, umstellen, umstoßen, umstürzen, umwandeln, umwerten, verdrehen, verhexen, versetzen, vertauschen, verwandeln, verwechseln, verzaubern, more..., wechseln, ändern, less  
-{{< /betonen >}}
+{{< betonenLeipzig >}}
+**Das Denken:**  
+**Ansicht:** annehmen, beharren, denken, dünken, erachten, glauben, meinen, vermuten, voraussetzen, wähnen  
+**Vermutung:** ahnen, annehmen, argwöhnen, denken, ermessen, erraten, glauben, meinen, mutmaßen, voraussetzen, wähnen  
+
+{{< /betonenLeipzig >}}
 
 
-{{< betonen blue >}}
-**Zeichen, Mitteilung, Sprache:**  
-**``Grammatik:``** ableiten, abwandeln, abändern, beugen, herleiten, steigern  
-{{< /betonen >}}
+{{< betonenLeipzig >}}
+**Religion, Übersinnliches:**  
+**Religiosität, Glaube:** bereuen, büßen, glauben, glauben  
+
+{{< /betonenLeipzig >}}
 
 ### Synonym
-ändern, modifizieren, abwandeln, wandeln, umfunktionieren, umbilden, umformen, modeln, umgestalten, verändern, modulieren, umkrempeln, novellieren, ummünzen, revidieren, verwandeln, umsetzen, ummodeln, überarbeiten, umarbeiten, mutieren, variieren, revolutionieren, korrigieren
+tippen, abkaufen, meinen, abnehmen, erachten, denken, schätzen, vermuten, wähnen, annehmen, vormachen, finden
+
+
+### Similarity based on Cooccurrences
+denken, sagen, wissen, behaupten, glaubt, glaubten, fragen, verstehen, reden, sprechen, trauen, tun, glaube, nennen, sehen, merken, wussten, vermuten, denkt, erklären, denke, mögen, erwarten, arbeiten, fürchten, aber, wünschen, schätzen, schreiben, halten, wollen, scheinen, ja, doch, würden, hoffen, weiß, schauen, versuchen, da, denn, weiss, hätten, dann, meinen, vielleicht, leben, sonst, tut, so, verdienen, brauchen, wirklich, wollten, wenn, Leute, einfach, kommen, es, man
 

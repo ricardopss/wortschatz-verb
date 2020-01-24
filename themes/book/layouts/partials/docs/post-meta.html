@@ -1,7 +1,7 @@
 <style>
 	#Cats {
 	padding: 2px;
-	margin: 0.5px;
+	margin: 1px;
 	border: 0.5px solid #002d5a;
 	color:#002d5a;
 	background-color: rgba(0,45,90,0.1);
@@ -10,9 +10,9 @@
 	font-size:13px
 	}
 	
-	#Tags {
+	#Schwer {
 	padding: 2px;
-	margin: 0.5px;
+	margin: 1px;
 	border: 0.5px solid #bf8f00;
 	color:#bf8f00;
 	background-color: rgba(255,190,0,0.1);
@@ -21,9 +21,43 @@
 	font-size:13px;
 	}
 
+	#Main {
+	padding: 2px;
+	margin: 1px;
+	border: 0.5px solid #bf8f00;
+	color:#bf8f00;
+	background-color: rgba(255,190,0,0.1);
+	outline: none;	
+	text-decoration:none;
+	font-size:13px;
+	}
+
+	#Domain {
+	padding: 2px;
+	margin: 1px;
+	border: 0.5px solid #bf8f00;
+	color:#bf8f00;
+	background-color: rgba(255,190,0,0.1);
+	outline: none;	
+	text-decoration:none;
+	font-size:13px;
+	}
+
+	#Tags {
+	padding: 2px;
+	margin: 1px;
+	border: 0.5px solid #bf8f00;
+	color:#bf8f00;
+	background-color: rgba(255,190,0,0.1);
+	outline: none;	
+	text-decoration:none;
+	font-size:13px;
+	}
+
+
 	#Series {
 	padding: 2px;
-	margin: 0.5px;
+	margin: 1px;
 	border: 0.5px solid #d60000;
 	color:#d60000;
 	background-color: rgba(255,0,0,0.1);
@@ -55,21 +89,21 @@
 	{{ else if eq $term "domainDornseiffs"}}
 	  {{ with $list := index $.Params $term }}
 	    {{ range $n, $single := $list }}{{ if $n }} {{ end -}}
-	      <a id="Tags" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
+	      <a id="Domain" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
 	    {{- end }}
 	  {{ end }}	  
 
 	{{ else if eq $term "mainDornseiffs"}}
 	  {{ with $list := index $.Params $term }}
 	    {{ range $n, $single := $list }}{{ if $n }} {{ end -}}
-	      <a id="Tags" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
+	      <a id="Main" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
 	    {{- end }}
 	  {{ end }}	  
 
 	{{ else if eq $term "schwierigkeit"}}
 	  {{ with $list := index $.Params $term }}
 	    {{ range $n, $single := $list }}{{ if $n }} {{ end -}}
-	      <a id="Tags" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
+	      <a id="Schwer" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
 	    {{- end }}
 	  {{ end }}	  
 
