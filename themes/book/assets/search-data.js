@@ -9,7 +9,7 @@
 
   indexCfg.doc = {
     id: 'id',
-    field: ['title', 'content'],
+    field: ['title'], // 'content'
     store: ['title', 'href'],
   };
 
@@ -20,8 +20,8 @@
   index.add({
     'id': {{ $index }},
     'href': '{{ $page.RelPermalink }}',
-    'title': {{ (partial "docs/title" $page) | jsonify }},
-    'content': {{ $page.Plain | jsonify }}
+    'title': {{ (partial "docs/title" $page) | jsonify }}//,
+    //'content': {{ $page.Plain | jsonify }}
   });
   {{- end -}}
 })();
