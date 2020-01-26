@@ -2,68 +2,68 @@
 	#Cats {
 	padding: 2px;
 	margin: 1px;
-	border: 0.5px solid #002d5a;
-	color:#002d5a;
-	background-color: rgba(0,45,90,0.1);
+	border: 0.5px solid white;
+	color:white;
+	background-color: #005073;
 	outline: none;	
 	text-decoration:none;
-	font-size:13px
+	font-size:12px;
 	}
 	
 	#Schwer {
 	padding: 2px;
 	margin: 1px;
-	border: 0.5px solid #bf8f00;
-	color:#bf8f00;
-	background-color: rgba(255,190,0,0.1);
+	border: 0.5px solid white;
+	color:white;
+	background-color: #107dac;
 	outline: none;	
 	text-decoration:none;
-	font-size:13px;
+	font-size:12px;
 	}
 
 	#Main {
 	padding: 2px;
 	margin: 1px;
-	border: 0.5px solid #bf8f00;
-	color:#bf8f00;
-	background-color: rgba(255,190,0,0.1);
+	border: 0.5px solid white;
+	color:white;
+	background-color: #9e9e9e;
 	outline: none;	
 	text-decoration:none;
-	font-size:13px;
+	font-size:12px;
 	}
 
 	#Domain {
 	padding: 2px;
 	margin: 1px;
-	border: 0.5px solid #bf8f00;
-	color:#bf8f00;
-	background-color: rgba(255,190,0,0.1);
+	border: 0.5px solid white;
+	color:white;
+	background-color: #607d8d;
 	outline: none;	
 	text-decoration:none;
-	font-size:13px;
+	font-size:12px;
 	}
 
 	#Tags {
 	padding: 2px;
 	margin: 1px;
-	border: 0.5px solid #bf8f00;
-	color:#bf8f00;
-	background-color: rgba(255,190,0,0.1);
+	border: 0.5px solid white;
+	color:white;
+	background-color: #2f2f2f;
 	outline: none;	
 	text-decoration:none;
-	font-size:13px;
+	font-size:12px;
 	}
 
 
 	#Series {
 	padding: 2px;
 	margin: 1px;
-	border: 0.5px solid #d60000;
-	color:#d60000;
-	background-color: rgba(255,0,0,0.1);
+	border: 0.5px solid white;
+	color:white;
+	background-color: #008080;
 	outline: none;	
 	text-decoration:none;
-	font-size:13px;
+	font-size:12px;
 	}
 
 </style>
@@ -71,49 +71,40 @@
 {{ $dateFormat := default "January 2, 2006" .Site.Params.BookDateFormat }}
 
 <div>
-{{ range $term, $_ := .Site.Taxonomies }}
-	{{ if eq $term "series"}}
-	  {{ with $list := index $.Params $term }}
-	    {{ range $n, $single := $list }}{{ if $n }} {{ end -}}
-	      <a id="Series" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
-	    {{- end }}
-	  {{ end }}
+    {{ range .Params.kategorien }}
+        <a id="Cats" href="{{ "kategorien/" | relLangURL }}{{ . | urlize }}">
+            <span>{{ . }}</span>
+        </a>
+    {{ end }}
 
-	{{ else if eq $term "tags"}}
-	  {{ with $list := index $.Params $term }}
-	    {{ range $n, $single := $list }}{{ if $n }} {{ end -}}
-	      <a id="Tags" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
-	    {{- end }}
-	  {{ end }}	  
+    {{ range .Params.schwierigkeit }}
+        <a id="Schwer" href="{{ "schwierigkeit/" | relLangURL }}{{ . | urlize }}">
+            <span>{{ . }}</span>
+        </a>
+    {{ end }}
 
-	{{ else if eq $term "domainDornseiffs"}}
-	  {{ with $list := index $.Params $term }}
-	    {{ range $n, $single := $list }}{{ if $n }} {{ end -}}
-	      <a id="Domain" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
-	    {{- end }}
-	  {{ end }}	  
+    {{ range .Params.mainDornseiffs }}
+        <a id="Main" href="{{ "maindornseiffs/" | relLangURL }}{{ . | urlize }}">
+            <span>{{ . }}</span>
+        </a>
+    {{ end }}
 
-	{{ else if eq $term "mainDornseiffs"}}
-	  {{ with $list := index $.Params $term }}
-	    {{ range $n, $single := $list }}{{ if $n }} {{ end -}}
-	      <a id="Main" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
-	    {{- end }}
-	  {{ end }}	  
+    {{ range .Params.domainDornseiffs }}
+        <a id="Domain" href="{{ "domaindornseiffs/" | relLangURL }}{{ . | urlize }}">
+            <span>{{ . }}</span>
+        </a>
+    {{ end }}
 
-	{{ else if eq $term "schwierigkeit"}}
-	  {{ with $list := index $.Params $term }}
-	    {{ range $n, $single := $list }}{{ if $n }} {{ end -}}
-	      <a id="Schwer" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
-	    {{- end }}
-	  {{ end }}	  
+    {{ range .Params.tags }}
+        <a id="Tags" href="{{ "tags/" | relLangURL }}{{ . | urlize }}">
+            <span>{{ . }}</span>
+        </a>
+    {{ end }}
 
-	{{ else }}
-	  {{ with $list := index $.Params $term }}
-	    {{ range $n, $single := $list }}{{ if $n }} {{ end -}}
-	      <a id="Cats" href="/{{$term}}/{{$single | urlize}}/">{{ $single }}</a>
-	    {{- end }}
-	  {{ end }}
-	{{ end }}
+    {{ range .Params.series }}
+        <a id="Series" href="{{ "series/" | relLangURL }}{{ . | urlize }}">
+            <span>{{ . }}</span>
+        </a>
+    {{ end }}
 
-{{ end }}
 </div>

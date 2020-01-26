@@ -23,7 +23,7 @@ nunc! Fragosis suae dextra geruntur functus vulgata.
 
 ## Anderen Kategories
 
-{{< button href="https://dewortschatz-adjektiv.netlify.com" >}}Adjektiv{{< /button >}}
-{{< button href="https://dewortschatz-adverb.netlify.com" >}}Adverb{{< /button >}}
-{{< button href="https://dewortschatz-nomen.netlify.com" >}}Nomen{{< /button >}}
+{{< button href="https://wortschatz-adjektiv.netlify.com" >}}Adjektiv{{< /button >}}
+{{< button href="https://wortschatz-adverb.netlify.com" >}}Adverb{{< /button >}}
+{{< button href="https://wortschatz-nomen.netlify.com" >}}Nomen{{< /button >}}
 

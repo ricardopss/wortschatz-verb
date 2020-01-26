@@ -2,8 +2,8 @@
   {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
   {{ range sort .Paginator.Pages }}
   <article class="markdown book-post">
-    <h2>
-      <a href="{{ .RelPermalink }}" style="text-decoration:none;">{{ .Title }}</a>
+    <h2 style="text-decoration:none; margin-bottom:2px">
+      <a href="{{ .RelPermalink }}" style="text-decoration:none; margin-bottom:1px">{{ .Title }}</a>
     </h2>
     {{ partial "docs/post-meta" . }}
     <p>
