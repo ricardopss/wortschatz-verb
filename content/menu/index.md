@@ -3,8 +3,10 @@ headless: true
 bookMenuLevels: 1
 ---
 
-- [**Ich bin's**]({{< relref "/ich-bins" >}})
-- [**Posts**]({{< relref "/posts" >}})   
+- [**Posts**]({{< relref "/posts" >}})
+- [**Adjektive**](https://wortschatz-adjektiv.netlify.com/)
+- [**Adverbien**](https://wortschatz-adverb.netlify.com/)   
+- [**Nomen**](https://wortschatz-nomen.netlify.com/)   
 - [**Verben**]({{< relref "/Kategorien/verb" >}})
  	- [**Schwierigkeit**]({{< relref "/schwierigkeit" >}})
  	- [**main <br>Dornseiff Sets**]({{< relref "/maindornseiffs" >}})
